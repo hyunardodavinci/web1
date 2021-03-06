@@ -1,0 +1,179 @@
+
+
+.Allheader{
+padding-top: 60px;
+background-color: #5CDB95;
+height: 220px;
+}
+#header {
+padding-right: 15px;
+}
+#header>p {
+  color: #EDF5E1;
+}
+
+
+body{
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+background: #fef7f6;
+
+}
+
+div {
+   text-align: center;
+
+}
+
+
+#logo {
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 60px;
+font-weight: bold;
+
+}
+#introduction {
+font-size: 30px;
+margin-top: 0px;
+}
+
+.navigation{
+text-align: center;
+margin-top: 35px;
+padding-right: 40px;
+
+}
+
+.navigation a{
+font-size: 28px;
+color: #EDF5E1;
+text-decoration: none;
+margin-right: 20px;
+}
+
+
+
+
+
+.contenido {
+  margin-top: 50px;
+}
+
+.description p{
+  font-size: 18px;
+  margin: 40px;
+}
+
+.picture1{
+  background-color: #fff;
+  border-radius: 2em;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+  width: 700px;
+  height: 550px;
+}
+
+.picture1 img{
+  display: block;
+  position: absolute;
+  min-width: 100%;
+  height: 400px;
+}
+
+.picture1 h1 {
+  display: block;
+  position: absolute;
+  top: 400px;
+  left: 75px;
+  font-family: sans-serif;
+}
+
+.state {
+  display: block;
+  position: absolute;
+  top: 470px;
+  left: 50px;
+  margin: 16px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #9e9e61;
+}
+
+
+
+
+.KyonggiFood {
+  display: block;
+  position: absolute;
+  color:#C5C6C7;
+  top: 500px;
+  left: 587px;
+}
+
+@media screen and (max-width: 480px) {
+
+
+
+.picture1 {
+   width: 350px;
+   height: 346px;
+}
+
+.picture1 img{
+
+  width: 350px;
+  height: 210px;
+}
+.picture1 h1{
+  font-size: 15px;
+  top: 205px;
+  left: 50px;
+}
+
+.state{
+  font-size: 8px;
+  top: 240px;
+  left: 10px;
+
+}
+
+.KyonggiFood {
+  left: 283px;
+  top: 300px;
+  font-size: 8px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+footer{
+  border-top: 1px solid gray;
+  display: block;
+  margin-top: 60px;
+  height: 500px;
+}
+
+footer p{
+  font-weight: bold;
+  margin-top: 43px;
+
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+footer div {
+  margin: 15px;
+}
